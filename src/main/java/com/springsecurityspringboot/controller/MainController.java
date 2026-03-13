@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class MainController {
 
     @GetMapping("/arsh")
+    @ResponseBody
     public String hello() {
-        return "hello";
+        return "hello Arsh";
     }
 
     @GetMapping("/arsh/welcome")
